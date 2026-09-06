@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SecondLowesInArrayMain {
+public class SecondLowestInArrayMain {
 
     /**
      * Returns the second lowest *distinct* value in the array.

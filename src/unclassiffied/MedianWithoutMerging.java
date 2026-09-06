@@ -35,10 +35,6 @@ public class MedianWithoutMerging {
         throw new IllegalArgumentException("input arrays are not sorted");
     }
 
-    public static double findMedianNaive(int[] a, int[] b) {
-        return 0.3;
-    }
-
     // ---------- tests ----------
 
     private static int passed = 0;
