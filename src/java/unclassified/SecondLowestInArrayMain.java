@@ -1,3 +1,5 @@
+package unclassified;
+
 import java.util.Arrays;
 
 public class SecondLowestInArrayMain {
