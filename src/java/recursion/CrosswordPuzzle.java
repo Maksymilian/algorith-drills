@@ -2,7 +2,9 @@ package recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Gatherers;
 
 /**
  * HackerRank "Crossword Puzzle": fill a grid of {@code '+'} walls and {@code '-'} blanks with a
