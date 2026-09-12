@@ -119,8 +119,8 @@ public class Candies {
      * <p>
      * This is the textbook form, and the one to read the recurrence off; {@link #candies(int[])} is
      * the one to run. The tables are what make it linear rather than quadratic, but each entry has a
-     * single dependent - {@code left[i]} feeds only {@code left[i + 1]} - so none is ever looked up
-     * twice, and rolling them up into the fold's counters loses nothing. What they cost is the whole
+     * single dependent - {@code left[i]} feeds only {@code left[i + 1]} - so no entry is ever
+     * re-derived, and rolling them up into the fold's counters loses nothing. What they cost is the whole
      * line in memory, so there is no stream overload to go with this one. Their one advantage is
      * that the individual shares survive the call, which the fold discards as it goes.
      *
